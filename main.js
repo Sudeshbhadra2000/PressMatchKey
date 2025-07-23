@@ -1,8 +1,8 @@
 const circle = document.getElementById("circle");
 const letterSpan = document.getElementById("letter");
 
-const correctSound = new Audio("Sounds/success.mp3");
-const incorrectSound = new Audio("Sounds/fail.mp3");
+const correctSound = new Audio("success.mp3");
+const incorrectSound = new Audio("fail.mp3");
 
 const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let currentLetter = getRandomLetter(null);
